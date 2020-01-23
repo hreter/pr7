@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+}
+
+body {
+
+}
+
+.bg {
+    background-image: url("../../best-books-compressor.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    width: 100%;
+}
+
+.teacher-book {
+    margin-top: 15vh;
+}
+
+h3 {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h3, form {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+}
+
+form {
+    margin-top: 30px;
+    padding: 40px 30px;
+}
+
+button {
+    width: 100%;
+}
+
+a {
+    display: block;
+    padding-top: 20px;
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #17a2b8;
+}
+
+.was-validated .no-green-valid .form-check-input:valid~.form-check-label {
+    color: black;
+}
