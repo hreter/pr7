@@ -1,0 +1,102 @@
+header {
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    background-color: #17a2b8;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+}
+
+.icon-small {
+    font-size: 25px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.navbar-light .navbar-nav .active.active-color .nav-link {
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .5);
+    font-size: 15px;
+}
+
+.navbar-toggler {
+    background-color: #17a2b8;
+}
+
+.navbar-nav li {
+    line-height: 50px;
+}
+
+.pagination-schedule {
+    margin: 30px 0;
+}
+
+.page-link {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.page-link:hover {
+    background-color: white;
+}
+.page-link:focus {
+   box-shadow: none;
+}
+
+.pagination-words {
+    color: #17a2b8;
+    font-size: 15px;
+    padding: 1.2rem .75rem 0 .75rem;
+}
+
+.week {
+    font-size: 25px;
+}
+
+.table-schedule {
+    margin: 30px 20px;
+    text-align: center;
+}
+
+th {
+    font-weight: normal;
+}
+
+thead th {
+    color: white;
+    background-color: rgba(23, 162, 184, .5);
+    border-top-color: rgba(23, 162, 184, .5);
+}
+
+.table th {
+    vertical-align: middle;
+}
+
+.lesson {
+    font-size: 80%;
+    margin-top: 15px;
+}
+
+.number-lessons {
+    color: white;
+    background-color: #17a2b8;
+    border-radius: 3px;
+    width: 20px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+    float: right;
+}
+
+
+
+
