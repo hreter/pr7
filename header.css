@@ -1,9 +1,11 @@
 header {
     width: 100%;
+    max-height: 82px;
 }
 .navbar {
     width: 100%;
     background-color: #17a2b8;
+    max-height: 82px;
 }
 
 .icon {
@@ -16,7 +18,7 @@ header {
     color: rgba(255, 255, 255, .5);
 }
 
-.navbar-light .navbar-nav .active.active-color .nav-link div {
+.navbar-light .navbar-nav .active.active-color .nav-link div,  .navbar-light .navbar-nav .active.active-color .nav-link{
     color: white;
 }
 
@@ -36,15 +38,6 @@ header {
 .navbar-nav li {
     line-height: 50px;
 }
-
-h3 {
-    text-align: center;
-    margin: 30px 0;
-    font-weight: normal;
-}
-
-
-
 
 
 

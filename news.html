@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="news.css">
-    <link rel="stylesheet" href="../../fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.12.0-web/css/all.css">
     <title>News</title>
 
 </head>
@@ -29,7 +30,7 @@
                     <a class="nav-link" href="#">Attendance</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Schedule</a>
+                    <a class="nav-link" href="schedule.html">Schedule</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Homework</a>
@@ -39,8 +40,8 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item active active-color">
-                    <a class="nav-link" href="#">
-                        <div class="icon-small"><i class="fas fa-bell"></i></div>
+                    <a class="nav-link" href="news.html">
+                        <div class="icon-small"><i class="fas fa-bell "></i></div>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -61,13 +62,61 @@
 
 </header>
 
-<h3>NEWS</h3>
+<h3 class="newsTitle">NEWS</h3>
+
+<div class="container">
+
+    <div class="row">
+        <div class="card col">
+            <img src="img/cleaner.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <div class="date">20/04/19</div>
+                <h5 class="card-title">Updating opetating system</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
 
 
+        <div class="card col second">
+            <img src="img/coworking.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <div class="date">10/04/19</div>
+                <h5 class="card-title">Teacher's meeting</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <form action="#">
 
+                    <label>
+                        <input type="radio" id="iCan" name="can">
+                        I can</label>
 
+                    <label class="labelWithMargin">
+                        <input type="radio" name="can" id="iCant">
+                        I can't</label>
 
+                    <button type="submit" class="btn btn-info">Send</button>
+                </form>
+            </div>
+        </div>
 
+        <div class="card col third">
+            <div class="card-body">
+                <div class="date">20/04/19</div>
+                <h5 class="card-title">Presentation of the course work of department "Software Development"</h5>
+                <p class="card-text">Time: April 10 at 12:00</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#">Link for registration</a>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
